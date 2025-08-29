@@ -2,6 +2,9 @@
   "name": "moontv",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "20.17.0"
+  },
   "scripts": {
     "dev": "pnpm gen:manifest && next dev -H 0.0.0.0",
     "build": "pnpm gen:manifest && next build",
